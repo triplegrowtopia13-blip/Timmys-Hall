@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timmy's Hall and Neza's too | Calendar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrap">
+    <header class="header">
+      <a class="logo" href="index.html">
+        <span>Timmy's Hall</span>
+        <em>and Neza's too</em>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contacts</a>
+        <a class="active" href="calendar.html">Calendar</a>
+      </nav>
+
+      <a class="top-btn" href="#booking">Book an Event</a>
+    </header>
+
+    <main class="page">
+      <section class="center-title">
+        <p class="eyebrow">Availability</p>
+        <h1>Event Calendar</h1>
+        <p>See upcoming events and check availability. The calendar is for viewing only.</p>
+      </section>
+
+      <section class="calendar-layout">
+        <div class="calendar-card">
+          <div class="calendar-top">
+            <button id="prevMonth">‹</button>
+            <h2 id="monthTitle">Month</h2>
+            <button id="nextMonth">›</button>
+          </div>
+
+          <div class="weekdays">
+            <span>Sun</span>
+            <span>Mon</span>
+            <span>Tue</span>
+            <span>Wed</span>
+            <span>Thu</span>
+            <span>Fri</span>
+            <span>Sat</span>
+          </div>
+
+          <div id="calendarGrid" class="calendar-grid"></div>
+        </div>
+
+        <aside id="booking" class="booking-card">
+          <h2>Interested in booking?</h2>
+          <p>
+            Contact us to check availability, pricing, and event details.
+          </p>
+
+          <div class="phone-row">
+            <span>☎</span>
+            <strong>(555) 123-4567</strong>
+          </div>
+
+          <button id="bookButton" class="btn wide">Contact Us</button>
+
+          <p class="note">
+            Calendar is view-only. To book an event, please contact us.
+          </p>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div id="bookingModal" class="modal">
+    <div class="modal-card">
+      <button id="closeModal" class="close">×</button>
+      <p class="eyebrow">Booking</p>
+      <h2>Call us to reserve a date</h2>
+      <p>Please contact us to confirm availability and pricing.</p>
+      <p class="modal-phone">(555) 123-4567</p>
+      <a href="tel:5551234567" class="btn">Call Now</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
