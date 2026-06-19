@@ -7,7 +7,6 @@ const bookedEvents = {
   "2026-06-13": "Wedding",
   "2026-06-20": "Birthday Party",
   "2026-06-27": "Reunion"
-  "2026-06-10": "Poop Party"
 };
 
 const monthTitle = document.getElementById("monthTitle");
