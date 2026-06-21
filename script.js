@@ -3,11 +3,8 @@
 // Format: "YYYY-MM-DD": "Event Name"
 
 const bookedEvents = {
-  "2026-06-06": "Private Event",
-  "2026-06-13": "Wedding",
-  "2026-06-20": "Birthday Party",
-  "2026-06-27": "Reunion",
-  "2026-06-10": "Poop Party"
+  "2026-06-27": "Wedding Event",
+  "2026-07-01": "Wedding Event"
 };
 
 const monthTitle = document.getElementById("monthTitle");
